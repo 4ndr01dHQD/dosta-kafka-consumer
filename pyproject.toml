@@ -1,0 +1,17 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "dosta-kafka-consumer"
+version = "1.0.0"
+authors = [
+  { name="Cheremisin Andrey", email="a.cheremisin@dostaevsky.ru" },
+]
+description = "Библиотека для быстрой настройки консьюмера кафки"
+readme = "README.md"
+requires-python = ">=3.10"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent",
+]
